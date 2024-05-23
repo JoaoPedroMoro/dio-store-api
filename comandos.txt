@@ -1,0 +1,4 @@
+python -m venv .storeapi  -> Create virtual environment
+.\.storeapi\Scripts\activate  -> Activate the venv
+pip freeze > requirements.txt  -> Update requirements
+poetry shell
